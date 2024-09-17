@@ -423,6 +423,10 @@
         order: 1;
     }
 
+    .block {
+        padding: 0px;
+    }
+
 }
 
 @media only screen and (max-width:740px) {
@@ -569,9 +573,7 @@
         height: 110px;
     }
 
-    .block {
-        padding: 0px;
-    }
+
 
     /* Hero section Ends  */
     .Advertice {
@@ -845,12 +847,9 @@
         padding: 0 24px;
         margin: 20px auto;
         justify-content: center;
-
     }
 
-    .block {
-        padding: 0px;
-    }
+
 
     .Advertice {
         margin: 24px 0;
