@@ -545,6 +545,9 @@ span>img {
 .storage-box {
     display: flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
 }
 
 .storage-box img {
@@ -583,6 +586,14 @@ span>img {
 .liecence-sponsors p {
     line-height: 25px;
     color: white;
+}
+
+.bg {
+    background-color: #161639;
+}
+
+.bg-storage {
+    background-color: #f3f6fe;
 }
 
 .footer-sponces {

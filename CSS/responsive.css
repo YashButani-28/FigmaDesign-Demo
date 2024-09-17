@@ -423,9 +423,8 @@
         order: 1;
     }
 
-    .block {
-        padding: 0px;
-    }
+
+
 
 }
 
@@ -445,9 +444,7 @@
         gap: 18px;
     }
 
-    .block {
-        padding: 0px;
-    }
+
 }
 
 @media only screen and (max-width:600px) {
@@ -679,6 +676,24 @@
 
     }
 
+    .footer-sponces {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    .footer-sponces img {
+        width: 50%;
+    }
+
+    .liecence-sponsors {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer-enquiries {
+        padding: 50px 0;
+    }
 }
 
 @media only screen and (max-width:384px) {
@@ -849,8 +864,6 @@
         justify-content: center;
     }
 
-
-
     .Advertice {
         margin: 24px 0;
         height: auto;
@@ -872,4 +885,8 @@
         width: 114px;
         height: 36px;
     }
+
+
+
+
 }
