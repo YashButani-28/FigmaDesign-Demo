@@ -569,6 +569,10 @@
         height: 110px;
     }
 
+    .block {
+        padding: 0px;
+    }
+
     /* Hero section Ends  */
     .Advertice {
         width: 100%;
@@ -842,6 +846,10 @@
         margin: 20px auto;
         justify-content: center;
 
+    }
+
+    .block {
+        padding: 0px;
     }
 
     .Advertice {
