@@ -119,46 +119,19 @@
 }
 
 @media only screen and (max-width:992px) {
-    .toggle {
-        display: block;
-        cursor: pointer;
-    }
+
 
     .navigations {
-
-        border-radius: 10px;
-        position: fixed;
-        top: 70px;
-        left: -100%;
-        width: 100%;
-        height: 450px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: left 0.4s ease;
-    }
-
-    .navigations.active {
-        left: 0;
+        width: 684px;
+        height: 24px;
     }
 
     .navigations ul {
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
     }
-
-    .navigations ul li a {
-        font-size: 1.5rem;
-        color: white;
-    }
-
-    .navbar {
-        justify-content: space-between;
-    }
-
-
 
     .box {
         width: 448px;
@@ -256,7 +229,48 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:792px) {
+    .toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigations {
+
+        border-radius: 10px;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: 450px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: left 0.4s ease;
+    }
+
+    .navigations.active {
+        left: 0;
+    }
+
+    .navigations ul {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .navigations ul li a {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+
+
 
     .hero-section {
         gap: 50px;
@@ -411,6 +425,27 @@
 
 }
 
+@media only screen and (max-width:740px) {
+    .grid-box {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 18px;
+        max-width: 100%;
+        justify-content: center;
+        margin: 20px auto;
+
+    }
+
+    .managemen-services {
+        width: 530px;
+        gap: 18px;
+    }
+
+    .block {
+        padding: 0px;
+    }
+}
+
 @media only screen and (max-width:600px) {
     .container {
         width: 100%;
@@ -479,24 +514,11 @@
         width: 90%;
     }
 
-    .grid-box {
-        display: grid;
-        grid-template-columns: auto;
-        gap: 18px;
-        max-width: 100%;
-        justify-content: center;
-        margin: 20px auto;
-
-    }
-
     .managemen-services {
         width: 430px;
         gap: 10px;
     }
 
-    .block {
-        padding: 0px;
-    }
 
 }
 
