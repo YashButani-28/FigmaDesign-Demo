@@ -119,17 +119,46 @@
 }
 
 @media only screen and (max-width:992px) {
+    .toggle {
+        display: block;
+        cursor: pointer;
+    }
+
     .navigations {
-        display: none;
+
+        border-radius: 10px;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: 450px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: left 0.4s ease;
+    }
+
+    .navigations.active {
+        left: 0;
+    }
+
+    .navigations ul {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .navigations ul li a {
+        font-size: 1.5rem;
+        color: white;
     }
 
     .navbar {
         justify-content: space-between;
     }
 
-    .toggle {
-        display: block;
-    }
+
 
     .box {
         width: 448px;
