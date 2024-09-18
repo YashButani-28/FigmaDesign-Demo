@@ -263,6 +263,8 @@ span>img {
 }
 
 
+
+
 /* Adverticement End */
 
 /* Feature section */
@@ -542,23 +544,59 @@ span>img {
 
 
 /* storage unit  */
-.storage-box {
+/* .storage-box {
     display: flex;
     justify-content: center;
     max-width: 1200px;
     margin: auto;
     width: 100%;
+
 }
 
 .storage-box img {
     width: 100%;
-}
+} */
 
 .storage-box1 {
     display: none;
 }
 
+.storage-box {
+    margin-top: 100px;
+}
+
+.storage-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 586px;
+}
+
+.photo1 {
+    max-width: 40%;
+    /* max-height: 336px; */
+}
+
+.photo1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.photo2 {
+    position: relative;
+    top: -40px;
+    max-width: 40%;
+    /* max-height: 681px; */
+}
+
+.photo2 img {
+    height: 100%;
+    width: 100%;
+}
+
 /* storage unit End */
+
 
 /* footer  */
 
