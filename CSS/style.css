@@ -745,5 +745,6 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     gap: 50px;
+    align-items: center;
 
 }
