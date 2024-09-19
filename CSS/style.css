@@ -160,8 +160,8 @@ header {
 
 .main-image {
     position: relative;
-    width: 100%;
     max-width: 400px;
+    width: 100%;
 
 }
 
@@ -178,7 +178,8 @@ header {
     left: -10px;
     bottom: 50px;
     z-index: -1;
-    width: 147px;
+    max-width: 147px;
+    width: 100%;
     height: 147px;
 }
 
@@ -191,7 +192,8 @@ header {
     position: absolute;
     top: 10px;
     right: 80px;
-    width: 39px;
+    max-width: 39px;
+    width: 100%;
     height: 39px;
 }
 
@@ -205,7 +207,8 @@ header {
     position: absolute;
     bottom: 15px;
     right: -5px;
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -220,7 +223,8 @@ header {
     position: absolute;
     top: 90px;
     left: -80px;
-    width: 180px;
+    max-width: 180px;
+    width: 100%;
     height: 150px;
     z-index: 2;
 
@@ -337,10 +341,10 @@ header {
 }
 
 .feature-box-menu1 {
+
     position: relative;
     display: flex;
     justify-content: center;
-    /* width: 40%; */
 
 }
 
@@ -448,13 +452,13 @@ header {
     font-size: 15px;
 }
 
-.features-main-boxes1 {
+/* .features-main-boxes1 {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-}
+} */
 
 .exportImage-image {
     position: absolute;
@@ -519,7 +523,7 @@ header {
 .promotion-box img {
     max-width: 1000px;
     width: 100%;
-    height: 464px;
+    height: auto;
     padding: 30px 0;
 }
 
@@ -548,7 +552,6 @@ header {
     flex-direction: column;
     align-content: center;
     width: 576px;
-
     height: 200px;
     border-radius: 10px;
 }
@@ -572,7 +575,7 @@ header {
 
 
 /* storage unit  */
-/* .storage-box {
+.storage-box {
     display: flex;
     justify-content: center;
     max-width: 1200px;
@@ -583,7 +586,7 @@ header {
 
 .storage-box img {
     width: 100%;
-} */
+}
 
 .storage-box1 {
     display: none;
