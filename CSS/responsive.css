@@ -460,6 +460,11 @@
         gap: 2rem;
     }
 
+    .side-frame {
+        top: 90px;
+        left: -20px;
+    }
+
     .box-sponcers img {
         width: 40%;
         height: auto;
