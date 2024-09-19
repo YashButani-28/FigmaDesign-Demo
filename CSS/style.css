@@ -334,11 +334,11 @@ header {
     gap: 30px;
 }
 
-.features-main-boxes {
+/* .features-main-boxes {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 .feature-box-menu1 {
 
@@ -414,11 +414,11 @@ header {
 
 }
 
-.featureBox1 {
+/* .featureBox1 {
     display: flex;
     justify-content: center;
 
-}
+} */
 
 .feature-specs-menu {
     /* width: 40%; */
@@ -440,7 +440,7 @@ header {
 }
 
 .D-spaces-specs {
-    width: 400px;
+    max-width: 400px;
 }
 
 .D-spaces-specs h1 {

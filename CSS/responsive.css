@@ -261,6 +261,100 @@
     }
 
     .features-main-boxes {
+        grid-template-columns: 1fr;
+        /* Single column layout */
+        gap: 30px;
+        /* Adjust gap as needed */
+    }
+
+    /* Center the contents within each box */
+    .feature-box-menu1,
+    .feature-specs-menu {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-main-image,
+    .feature-specs-details {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* Ensure it takes full width */
+        max-width: 400px;
+        height: auto;
+        /* Optional: Limit max width for smaller screens */
+    }
+
+    .box-frame-image {
+        right: 35px;
+        top: 40px;
+        /* width: 150px;
+        height: 70px; */
+    }
+
+
+    .colorbox-image {
+
+        /* width: 120px;
+        height: 50px; */
+        right: 30px;
+        bottom: 0px;
+
+    }
+
+    .whitebox-image {
+
+        bottom: 120px;
+        left: -20px;
+        /* width: 80px;
+        height: 80px; */
+    }
+
+    .exportImage-image {
+
+        top: 40px;
+        right: 0px;
+        /* width: 130px;
+        height: 50px; */
+    }
+
+    .storage-box-image {
+        right: 20px;
+        bottom: 0px;
+        /* width: 120px;
+        height: 70px; */
+    }
+
+    .side-bar-image {
+
+        top: 190px;
+        left: -40px;
+        /* width: 100px;
+        height: 80px; */
+    }
+
+    .feature-specs-menu {
+        gap: 20px;
+        /* Adjust the gap for smaller screens */
+    }
+
+    .D-spaces img {
+        width: 36px;
+        /* Adjust icon size */
+        height: 36px;
+    }
+
+    .D-spaces-specs h1 {
+        font-size: 18px;
+        /* Adjust heading size */
+    }
+
+    .D-spaces-specs p {
+        font-size: 14px;
+        /* Adjust text size */
+    }
+
+    /* .features-main-boxes {
         max-width: 100%;
         margin: 20px 0;
         display: grid;
@@ -268,18 +362,18 @@
         gap: 70px;
     }
 
-    .customer-menu {
-        gap: 0px;
-    }
-
-
-
     .feature-specs-menu {
         max-width: 80%;
     }
 
     .feature-box-menu1 {
         max-width: 80%;
+    } */
+
+
+
+    .customer-menu {
+        gap: 0px;
     }
 
 
@@ -413,31 +507,30 @@
         margin-bottom: 10px;
     }
 
-
-    .features-main-boxes {
-        max-width: 100%;
-        margin: 50px 0;
-        gap: 100px;
-    }
-
-    .feature-specs-menu {
-        max-width: 65%;
-    }
-
-    .feature-box-menu1 {
-        width: 70%;
-    }
-
     .feature-main-image {
-        position: relative;
-        width: 250px;
-        height: 300px;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .feature-specs-details {
+        max-width: 250px;
+        height: auto;
+        /* Further reduce width for small screens */
+    }
+
+    .D-spaces-specs h1 {
+        font-size: 16px;
+        /* Smaller heading for mobile */
+    }
+
+    .D-spaces-specs p {
+        font-size: 13px;
     }
 
     .box-frame-image {
         right: 10px;
         width: 150px;
-        height: 80px;
+        height: 70px;
     }
 
 
@@ -450,17 +543,13 @@
 
     }
 
-
-
-
     .whitebox-image {
 
         bottom: 80px;
-        left: -40px;
-        width: 100px;
-        height: 100px;
+        left: -20px;
+        width: 80px;
+        height: 80px;
     }
-
 
     .exportImage-image {
 
@@ -472,17 +561,45 @@
 
     .storage-box-image {
         right: 0px;
-        width: 130px;
+        width: 120px;
         height: 70px;
     }
 
     .side-bar-image {
         position: absolute;
         top: 120px;
-        left: -50px;
-        width: 120px;
+        left: -20px;
+        width: 100px;
         height: 80px;
     }
+
+    .feature-specs-menu {
+        max-width: 100%;
+    }
+
+
+    /* .features-main-boxes {
+        max-width: 100%;
+        margin: 50px 0;
+        gap: 100px;
+    }
+
+    
+
+    .feature-box-menu1 {
+        width: 70%;
+    }
+
+    .feature-main-image {
+        position: relative;
+        width: 250px;
+        height: 300px;
+    } */
+
+
+
+
+
 
     .footer-enquiries {
         padding: 16px 18px;
@@ -517,8 +634,6 @@
         display: block;
     }
 
-
-
     .storage-box1 img {
         width: 100%;
         height: 892px;
@@ -533,7 +648,7 @@
     }
 
     .footer-sponces {
-        width: 100%;
+        width: 80%;
         margin: auto;
         height: auto;
     }
@@ -585,17 +700,11 @@
         height: 100px;
     }
 
-
-
-
-
     .managemen-services {
         gap: 5px;
         padding: 20px;
         width: 300px;
+        height: auto;
     }
-
-
-
 
 }
