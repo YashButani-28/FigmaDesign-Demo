@@ -513,20 +513,31 @@
         height: auto;
     }
 
-    .feature-specs-details {
+    /*.feature-specs-details {
         max-width: 250px;
         height: auto;
-        /* Further reduce width for small screens */
-    }
+        
+    }*/
 
     .D-spaces-specs h1 {
         font-size: 16px;
-        /* Smaller heading for mobile */
+
     }
 
     .D-spaces-specs p {
         font-size: 13px;
     }
+
+    .feature-specs-details {
+
+        align-items: center;
+
+        width: 100%;
+
+        gap: 16px;
+
+    }
+
 
     .box-frame-image {
         right: 10px;
