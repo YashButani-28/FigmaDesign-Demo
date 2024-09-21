@@ -1,17 +1,17 @@
-@media only screen and (max-width:1440px) {
+@media only screen and (max-width: 1440px) {
     .managemen-services {
         max-width: 500px;
     }
 }
 
-@media only screen and (max-width:1220px) {
+@media only screen and (max-width: 1220px) {
     .container {
         padding: 0 90px;
     }
 
     .navbar {
         justify-content: space-between;
-        padding: 0px;
+        padding: 15px 90px;
     }
 
     .navigations ul {
@@ -36,7 +36,12 @@
     }
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 15px 60px;
+    }
+
     .container {
         padding: 0 60px;
     }
@@ -62,9 +67,7 @@
         width: 100%;
         height: 130px;
         z-index: 2;
-
     }
-
 
     /* customer section  */
     .managemen-services {
@@ -72,8 +75,7 @@
     }
 }
 
-@media only screen and (max-width:992px) {
-
+@media only screen and (max-width: 992px) {
     .navigations {
         width: 684px;
         height: 24px;
@@ -106,7 +108,6 @@
     }
 
     .yellow-image {
-
         top: 0px;
         right: 50px;
         max-width: 32px;
@@ -118,7 +119,6 @@
         bottom: -0px;
         right: -30px;
         max-width: 180px;
-
     }
 
     .side-frame {
@@ -129,19 +129,13 @@
     }
 
     .features-main-boxes {
-
         grid-template-columns: 46% 52%;
         gap: 40px;
         align-items: center;
-
     }
 
-
     .managemen-services {
-
         gap: 10px;
-
-
     }
 
     /* customer section  */
@@ -153,11 +147,9 @@
         width: 100%;
         justify-content: space-between;
     }
-
-
 }
 
-@media only screen and (max-width:792px) {
+@media only screen and (max-width: 792px) {
     .toggle {
         display: block;
         cursor: pointer;
@@ -168,7 +160,6 @@
     }
 
     .navigations {
-
         border-radius: 10px;
         position: fixed;
         top: 70px;
@@ -204,7 +195,6 @@
     .hero-section {
         gap: 50px;
         margin: 0;
-
     }
 
     .box-menu {
@@ -240,7 +230,6 @@
         height: 147px;
     }
 
-
     .yellow-image {
         top: 10px;
         right: 80px;
@@ -263,12 +252,9 @@
 
     .features-main-boxes {
         grid-template-columns: 1fr;
-        /* Single column layout */
         gap: 30px;
-        /* Adjust gap as needed */
     }
 
-    /* Center the contents within each box */
     .feature-box-menu1,
     .feature-specs-menu {
         justify-content: center;
@@ -280,122 +266,75 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        /* Ensure it takes full width */
         max-width: 400px;
         height: auto;
-        /* Optional: Limit max width for smaller screens */
     }
 
     .box-frame-image {
         right: 35px;
         top: 40px;
-        /* width: 150px;
-        height: 70px; */
     }
 
-
     .colorbox-image {
-
-        /* width: 120px;
-        height: 50px; */
         right: 30px;
         bottom: 0px;
-
     }
 
     .whitebox-image {
-
         bottom: 120px;
         left: -20px;
-        /* width: 80px;
-        height: 80px; */
     }
 
     .exportImage-image {
-
         top: 40px;
         right: 0px;
-        /* width: 130px;
-        height: 50px; */
     }
 
     .storage-box-image {
         right: 20px;
         bottom: 0px;
-        /* width: 120px;
-        height: 70px; */
     }
 
     .side-bar-image {
-
         top: 190px;
         left: -40px;
-        /* width: 100px;
-        height: 80px; */
     }
 
     .feature-specs-menu {
         gap: 20px;
-        /* Adjust the gap for smaller screens */
     }
 
     .D-spaces img {
         width: 36px;
-        /* Adjust icon size */
         height: 36px;
     }
 
     .D-spaces-specs h1 {
         font-size: 18px;
-        /* Adjust heading size */
     }
 
     .D-spaces-specs p {
         font-size: 14px;
-        /* Adjust text size */
     }
-
-    /* .features-main-boxes {
-        max-width: 100%;
-        margin: 20px 0;
-        display: grid;
-        grid-template-columns: auto;
-        gap: 70px;
-    }
-
-    .feature-specs-menu {
-        max-width: 80%;
-    }
-
-    .feature-box-menu1 {
-        max-width: 80%;
-    } */
-
-
 
     .customer-menu {
         gap: 0px;
     }
 
-
     .footer-enquiries {
         padding: 48px 0;
-
     }
 
     .box-1 {
         order: 2;
-
     }
 
     .box-2 {
         order: 1;
     }
-
-
 }
 
-@media only screen and (max-width:740px) {
+@media only screen and (max-width: 740px) {
     .grid-box {
         display: grid;
         grid-template-columns: auto;
@@ -413,20 +352,21 @@
     .storage-div {
         max-height: 350px;
     }
-
-
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     .container {
         width: 100%;
         padding: 0px 24px;
     }
 
+    .navbar {
+        padding: 15px 24px;
+    }
+
     .box-title h1 {
         font-size: 52px;
     }
-
 
     .side-frame {
         top: 120px;
@@ -447,12 +387,9 @@
     .storage-div {
         max-height: 250px;
     }
-
-
 }
 
-@media only screen and (max-width:480px) {
-
+@media only screen and (max-width: 480px) {
     .box-sponcers {
         width: 100%;
         height: auto;
@@ -504,7 +441,6 @@
     .feature-title h1,
     .customer-title h1 {
         font-size: 24px;
-
     }
 
     .feature-title p,
@@ -518,15 +454,8 @@
         height: auto;
     }
 
-    /*.feature-specs-details {
-        max-width: 250px;
-        height: auto;
-        
-    }*/
-
     .D-spaces-specs h1 {
         font-size: 16px;
-
     }
 
     .D-spaces-specs p {
@@ -534,15 +463,12 @@
     }
 
     .feature-specs-details {
-
         align-items: center;
 
         width: 100%;
 
         gap: 16px;
-
     }
-
 
     .box-frame-image {
         right: 10px;
@@ -550,18 +476,14 @@
         height: 70px;
     }
 
-
     .colorbox-image {
-
         width: 120px;
         height: 50px;
         right: 10px;
         bottom: -10px;
-
     }
 
     .whitebox-image {
-
         bottom: 80px;
         left: -20px;
         width: 80px;
@@ -569,7 +491,6 @@
     }
 
     .exportImage-image {
-
         top: 40px;
         right: 0px;
         width: 130px;
@@ -593,30 +514,6 @@
     .feature-specs-menu {
         max-width: 100%;
     }
-
-
-    /* .features-main-boxes {
-        max-width: 100%;
-        margin: 50px 0;
-        gap: 100px;
-    }
-
-    
-
-    .feature-box-menu1 {
-        width: 70%;
-    }
-
-    .feature-main-image {
-        position: relative;
-        width: 250px;
-        height: 300px;
-    } */
-
-
-
-
-
 
     .footer-enquiries {
         padding: 16px 18px;
@@ -642,7 +539,6 @@
         margin: 20px 0;
     }
 
-
     .storage-box {
         display: none;
     }
@@ -655,7 +551,6 @@
         width: 100%;
         height: 892px;
         text-align: center;
-
     }
 
     .managemen-services {
@@ -682,10 +577,9 @@
     .footer-enquiries {
         padding: 50px 0;
     }
-
 }
 
-@media only screen and (max-width:384px) {
+@media only screen and (max-width: 384px) {
     .box-title h1 {
         font-size: 38px;
     }
@@ -723,5 +617,4 @@
         width: 300px;
         height: auto;
     }
-
 }

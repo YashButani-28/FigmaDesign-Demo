@@ -6,7 +6,6 @@
 
 :root {
     --main-text-color: #161639;
-
 }
 
 ::-webkit-scrollbar {
@@ -23,20 +22,15 @@ body {
     padding: 0 120px;
 }
 
-
-
 /* header Start  */
 
 header {
     width: 100%;
-    /* height: 97px; */
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: rgb(255, 255, 255);
     margin-bottom: 40px;
-    /* padding: 2% 0; */
-
 }
 
 .navbar {
@@ -46,7 +40,6 @@ header {
     padding: 15px 120px;
     margin: auto;
     width: 100%;
-
 }
 
 .logo img {
@@ -82,13 +75,7 @@ header {
     text-decoration: none;
     font-size: 1 rem;
     color: var(--main-text-color);
-
 }
-
-/* span>img {
-    height: 14px;
-    width: 14px;
-} */
 
 /* Header Complete  */
 
@@ -135,8 +122,7 @@ header {
 .box-description p {
     font-size: 1.2rem;
     line-height: 2rem;
-    color: #50506A;
-
+    color: #50506a;
 }
 
 .box-sponcers {
@@ -163,7 +149,6 @@ header {
     position: relative;
     max-width: 400px;
     width: 100%;
-
 }
 
 .main-image img {
@@ -172,7 +157,6 @@ header {
     width: 100%;
     z-index: 1;
 }
-
 
 .green-image {
     position: absolute;
@@ -201,7 +185,6 @@ header {
 .yellow-image img {
     width: 100%;
     height: 100%;
-
 }
 
 .box-frame {
@@ -228,7 +211,6 @@ header {
     width: 100%;
     height: 150px;
     z-index: 2;
-
 }
 
 .side-frame img {
@@ -277,13 +259,9 @@ header {
     }
 }
 
-
-
 /* Adverticement End */
 
 /* Feature section */
-
-
 
 .customer-menu {
     width: 100%;
@@ -291,7 +269,6 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-
 }
 
 .feature-title-box,
@@ -300,11 +277,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
-/* .feature-title-box {
-    margin-top: 50px;
-
-} */
 
 .feature-title,
 .customer-title {
@@ -335,18 +307,17 @@ header {
     gap: 30px;
 }
 
-/* .features-main-boxes {
-    display: flex;
-    justify-content: space-around;
+.features-main-boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
     align-items: center;
-} */
+}
 
 .feature-box-menu1 {
-
     position: relative;
     display: flex;
     justify-content: center;
-
 }
 
 .feature-main-image {
@@ -377,14 +348,12 @@ header {
     box-shadow: 0px 30px 60px 0px #20202033;
 }
 
-
 .colorbox-image {
     position: absolute;
     width: 180px;
     height: 70px;
     right: -20px;
     bottom: -15px;
-
 }
 
 .colorbox-image img {
@@ -393,7 +362,6 @@ header {
     z-index: 1;
     border-radius: 16px;
     box-shadow: 0px 30px 60px 0px #20202033;
-
 }
 
 .whitebox-image {
@@ -405,28 +373,17 @@ header {
 }
 
 .whitebox-image img {
-
     height: 100%;
     width: 100%;
     z-index: 1;
     border-radius: 16px;
     box-shadow: 0px 30px 60px 0px #20202033;
-
-
 }
 
-/* .featureBox1 {
-    display: flex;
-    justify-content: center;
-
-} */
-
 .feature-specs-menu {
-    /* width: 40%; */
     display: flex;
     flex-direction: column;
     gap: 40px;
-
 }
 
 .feature-specs-details {
@@ -453,14 +410,6 @@ header {
 .D-spaces-specs p {
     font-size: 15px;
 }
-
-/* .features-main-boxes1 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-} */
 
 .exportImage-image {
     position: absolute;
@@ -492,7 +441,6 @@ header {
     z-index: 2;
     border-radius: 16px;
     box-shadow: 0px 30px 60px 0px #20202033;
-
 }
 
 .side-bar-image {
@@ -510,8 +458,6 @@ header {
     box-shadow: 0px 30px 60px 0px #20202033;
     border-radius: 16px;
 }
-
-
 
 /* -------------- */
 
@@ -543,7 +489,6 @@ header {
     gap: 24px;
     width: 100%;
     justify-content: center;
-
 }
 
 .managemen-services {
@@ -569,12 +514,9 @@ header {
 
 .managemen-services p {
     font-size: 16px;
-
 }
 
 /* customer  Ends*/
-
-
 
 /* storage unit  */
 .storage-box {
@@ -583,7 +525,6 @@ header {
     max-width: 1200px;
     margin: auto;
     width: 100%;
-
 }
 
 .storage-box img {
@@ -608,7 +549,6 @@ header {
 
 .photo1 {
     max-width: 40%;
-    /* max-height: 336px; */
 }
 
 .photo1 img {
@@ -620,7 +560,6 @@ header {
     position: relative;
     top: -60px;
     max-width: 40%;
-    /* max-height: 681px; */
 }
 
 .photo2 img {
@@ -629,7 +568,6 @@ header {
 }
 
 /* storage unit End */
-
 
 /* footer  */
 
@@ -685,7 +623,7 @@ header {
 
 .companies-details a {
     text-decoration: none;
-    color: #9FA5C0;
+    color: #9fa5c0;
     font-size: 16px;
 }
 
@@ -710,7 +648,6 @@ header {
 
 .emailBar {
     position: relative;
-
 }
 
 .enter-email {
@@ -732,23 +669,11 @@ header {
     top: 7px;
     right: 8px;
     z-index: 1;
-
 }
 
 ::placeholder {
     color: white;
     opacity: 0.7;
-
-
 }
 
 /* footer Ends  */
-
-
-.features-main-boxes {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 50px;
-    align-items: center;
-
-}
